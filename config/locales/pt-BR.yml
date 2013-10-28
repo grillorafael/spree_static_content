@@ -13,4 +13,6 @@ pt-BR:
         foreign_link: Link externo (URL)
         show_in_header: Mostrar no cabeçalho
         show_in_footer: Mostrar no rodapé
+        show_in_sidebar: Mostrar na Barra Lateral
         position: Posição
+        visible: Visível
