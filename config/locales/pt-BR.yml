@@ -8,8 +8,10 @@ pt-BR:
     spree:
       pages: Páginas
       back_to_static_pages_list: Voltar para a Listagem de Páginas
+      admin:
+        tab:
+            pages: Páginas
       static_content:
-        admin_tab: Páginas
         static_pages: Páginas estáticas
         static_pages_desc: Administrar página estática com editor visual (WYSIWYG).
         title: Título
