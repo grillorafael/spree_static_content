@@ -2,9 +2,12 @@
 //= require codemirror
 
 $(function(){
-  var myCodeMirror = CodeMirror.fromTextArea(document.getElementById('page_body'), {
-    lineWrapping: true,
-    mode: 'text/html',
-    lineNumbers: true
-  });
+  var mirrorContent = document.getElementById('page_body');
+  if(mirrorContent){
+    var myCodeMirror = CodeMirror.fromTextArea(mirrorContent, {
+      lineWrapping: true,
+      mode: 'text/html',
+      lineNumbers: true
+    });
+  }
 });
